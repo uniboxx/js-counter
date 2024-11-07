@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  min-height: 100svh;
+  flex-direction: column;
+  align-items: center;
+  background-color: #333;
+  color: #ccc;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100svh;
+  background-color: #333;
+  color: #ccc;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  & button {
+    font-size: 1.5rem;
+    padding: 0 10px;
+    cursor: pointer;
+  }
+
+  #counter {
+    font-size: 1.5rem;
+  }
+}
